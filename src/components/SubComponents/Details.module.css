@@ -1,0 +1,35 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5% 0 5%;
+}
+
+.flexRowRating {
+  display: flex;
+  flex-direction: row;
+
+  /* padding:0 2% 0 2%; */
+}
+
+.margin {
+  margin: 4% 0 2% 0;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: space-between; */
+  padding: 0 5% 0 5%;
+
+}
+
+.paragraph {
+  margin: 4%;
+
+}
+.textLeft{
+text-align:left ;
+
+}

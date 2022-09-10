@@ -1,0 +1,32 @@
+.i1 {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+
+
+
+  border-radius: 15px;
+}
+
+.i2 {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  position: absolute;
+  top: 60%;
+
+  border-radius: 15px;
+}
+
+
+.all {
+  position: relative;
+
+  width: 45%;
+  height: fit-content;
+}
+
+.contOfTwo {
+  max-width: 100%;
+  width: 100%;
+}

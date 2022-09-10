@@ -1,0 +1,81 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.navCont {
+    width: 100%;
+    background-color: #3c9de2;
+    padding: 0.2em 3em;
+    margin-bottom: 10em;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+    /* #3c9de2 */
+}
+.navSearch{
+    width:30%;
+    display: flex;
+    align-items: center;
+
+}
+.searchInput{
+    border-radius:5px;
+}
+.navItems {
+
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+    width: 100%;
+    align-items: center;
+
+}
+
+.navItems a {
+
+    color: white;
+    text-decoration: none;
+    margin-right: 2em;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 650;
+    /* font-family: sans-serif; */
+}
+
+.navItems a.active {
+    background-color: white;
+    color: #3c9de2;
+    padding: 0.2em 0.4em;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.navBtn{
+    background: none;
+    color:white;
+    border:none;
+    cursor: pointer; 
+    margin-right: 2em;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 650;
+    /* font-family: sans-serif; */
+    
+}
+
+.logo{
+    color:white;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.log{
+margin-top: 5px;
+}

@@ -1,0 +1,205 @@
+.formCard {
+
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    align-content: center;
+    max-height: 350px;
+    overflow-y: auto;
+
+
+
+}
+
+.inlineRadio {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+
+}
+
+.check {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 200px;
+    margin: 0 auto;
+}
+
+.check label {
+    width: 800px;
+    margin-left: 0;
+    text-align: left;
+    font-size: 0.7rem;
+
+}
+
+.error_text {
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(218, 146, 12);
+    font-size: 0.8rem;
+    text-align: right;
+    padding: 0;
+
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+}
+
+.info {
+    text-align: center;
+    margin: 0.5em 0;
+    text-transform: capitalize;
+}
+
+.inlineUpload {
+    display: flex;
+}
+
+select {
+
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid rgb(60, 157, 226);
+    padding: 0.4em 0.5em;
+    outline-color: rgb(60, 157, 226);
+
+    border-radius: 3px;
+    margin-bottom: 0.5em;
+}
+
+option {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid yellow;
+}
+
+.inputf {
+    width: 83%;
+    display: block;
+    border: 1px solid rgb(60, 157, 226);
+    outline-color: rgb(60, 157, 226);
+    height: 40px;
+    border-radius: 3px;
+    margin: 0.8em auto;
+
+}
+
+textarea {
+    width: 83%;
+    display: block;
+    border: 1px solid rgb(60, 157, 226);
+    outline-color: rgb(60, 157, 226);
+
+    border-radius: 3px;
+    margin: 0.8em auto;
+
+}
+
+input[type="file"] {
+    border: none;
+}
+
+::placeholder {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+label {
+    text-transform: capitalize;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    position: relative;
+    background-color: #3C9DE2;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.button:after {
+    content: "";
+    background: #c0cbc0;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.hieght {
+    height: 70vh;
+}
+
+.hArea {
+    height: 50px;
+}
+
+.leftp {
+
+    display: flex;
+    justify-content: left;
+    padding-left: 60px;
+}
+.leftflex{
+display: flex;
+justify-content: left;
+
+}
+
+
+.areatext{
+border-radius: 5px;
+}

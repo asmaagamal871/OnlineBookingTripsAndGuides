@@ -1,0 +1,9 @@
+.view {
+    width: 100%;
+    max-width: 30%;
+    height: auto;
+    margin: 1%;
+
+    min-width:400px;
+
+}

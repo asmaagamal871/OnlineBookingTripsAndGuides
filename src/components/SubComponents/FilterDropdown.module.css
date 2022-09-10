@@ -1,0 +1,36 @@
+.allFilter {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    width: 90%;
+    padding: 1%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    
+}
+
+.allFilterForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%
+}
+
+.inputFilter {
+    padding: 0;
+    margin: 2%;
+    height: 50px;
+    width: 50%;
+}
+
+.selectFilter {
+    padding: 0;
+    margin: 2%;
+    height: 50px;
+    width: 50%;
+
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+}

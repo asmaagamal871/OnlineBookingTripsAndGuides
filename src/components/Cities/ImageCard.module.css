@@ -1,0 +1,41 @@
+.ImageCard {
+    max-width: 45%;
+
+
+    position: relative;
+}
+
+.ImageCard img {
+    max-width: 100%;
+    border-bottom-right-radius: 0;
+
+    border-bottom-left-radius: 0;
+    border: none;
+}
+
+.blue {
+    background-color: white;
+    padding: 0.5em 0;
+    z-index: 1;
+    width: 40%;
+    text-align: center;
+    font-weight: 700;
+    border-top-left-radius: 25px;
+    position: absolute;
+    right: 0;
+    bottom: -11.5px;
+
+}
+
+.white {
+    background-color: white;
+    padding: 0.5em 0;
+    z-index: 1;
+    width: 40%;
+    text-align: center;
+    font-weight: 700;
+    border-top-right-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: -11.5px;
+}

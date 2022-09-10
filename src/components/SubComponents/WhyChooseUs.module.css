@@ -1,0 +1,20 @@
+.headOfWhyChooseUs {
+    font-size: 2.3vw;
+    text-align: center;
+}
+
+.containerOfTwo {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5% 0;
+
+    width: 100%;
+    max-width: 1320px;
+    height: 70vh;
+    margin: 2% 1% 4% 1%;
+
+}

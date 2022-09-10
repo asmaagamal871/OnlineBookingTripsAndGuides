@@ -1,0 +1,19 @@
+
+.icon {
+  width: 3.5em;
+  height: 2.5rem; 
+
+
+}
+.num{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.allCOntent{
+    position: relative;
+    text-align: center;
+    color: black;
+    
+}

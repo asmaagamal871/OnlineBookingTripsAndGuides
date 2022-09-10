@@ -1,0 +1,31 @@
+.row {
+  display: flex;
+
+  width: 80%;
+  margin: 3em auto;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  padding: 1em;
+  background-color: rgb(60, 157, 226, 0.3);
+
+}
+
+.description {
+  max-width: 45%;
+
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* .description button {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #3c9de2;
+  color: white;
+  background-color: #3c9de2;
+  font-weight: 700;
+  width: 150px
+} */

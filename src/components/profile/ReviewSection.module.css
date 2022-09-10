@@ -1,0 +1,59 @@
+
+.container{
+    background-color: rgb(60,157,226,0.3);
+
+width:100%;
+padding:2em 1em;
+position:relative;
+
+
+}
+.reviews{
+   
+    margin-top:2em;
+    width:100%;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+
+   
+
+.reviews > .flexRowItem {
+    flex: 1 1 30%; /*grow | shrink | basis */
+    height: 100px;
+}
+
+
+
+
+/* button{
+  float:right;
+    padding:1em 3em; 
+    border-radius:25px;
+    border:1px solid gray;
+    font-weight:600;
+    display: block;
+
+}
+button:hover{
+    background-color:gray;
+    color:white;
+} */
+
+.addReview{
+   
+
+   max-width:60%;
+    margin:0 auto;
+}
+/* textarea{
+    width:100%;
+    border-radius: 25px;
+    border:2px solid gray;
+    
+} */

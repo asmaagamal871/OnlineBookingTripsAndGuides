@@ -1,0 +1,18 @@
+.cover{
+
+  background-color: rgba(205, 205, 205, 0.282);
+  height:80vh;
+
+  width:100%;
+  margin:3em auto;
+
+}
+
+
+.coverImg{
+    width:80%;
+    max-width:80%;
+    height:100%;
+    border:none;
+    border-radius: 0;
+}

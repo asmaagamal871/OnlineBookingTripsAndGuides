@@ -1,0 +1,43 @@
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 5em auto;
+
+    border-radius: 10px;
+    padding: 2em;
+    background-color: rgba(184, 190, 195, 0.3);
+
+}
+
+.location {
+    text-transform: capitalize;
+    font-weight: 800;
+
+
+
+}
+
+.locInfo {
+    width: 50%;
+    text-transform: capitalize;
+}
+
+.loc_img {
+    /* border-top-left-radius: 25px;
+    border-top-right-radius: 25px; */
+    width: 100%;
+    height: auto;
+    border: none;
+
+}
+
+.imgCard {
+    /* border-top-left-radius: 25px;
+    border-top-right-radius: 25px; */
+    width: 45%;
+    height: 500px;
+    overflow: hidden;
+}

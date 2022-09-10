@@ -1,0 +1,11 @@
+.trips {
+   display:flex;
+   overflow-x: scroll;
+   flex-shrink: 0;
+   margin-top: 2em;
+}
+
+.conterContent{
+    width:80%;
+    margin:5em auto;
+}

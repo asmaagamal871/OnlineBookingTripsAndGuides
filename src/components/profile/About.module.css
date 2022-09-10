@@ -1,0 +1,26 @@
+.container{
+    margin:1em auto;
+  
+
+    width:80%;
+    border-radius: 25px;
+  
+    padding-left:1em;
+}
+
+.aboutTitle{
+    display: block;
+font-size: 18px;
+    font-weight: 700;
+ 
+   text-align:left;
+  
+
+}
+.aboutBody{
+    text-align: left;
+    font-size: 17px;
+ 
+  margin-top:0.3em;
+    
+}

@@ -1,0 +1,47 @@
+ .flexRow {
+
+    margin-top: 2em;
+    width: 60%;
+    margin: 3em auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+
+ }
+
+ .flexRowItem {
+
+    max-width: 20%;
+
+    margin: 1em 2em;
+   
+    height: 30%;
+    overflow: hidden;
+
+ }
+
+ .flexRowItem:hover {
+    transform: translateY(-0.4cm);
+    transition: transform 0.2s;
+
+ }
+
+ .flexRow>.flexRowItem {
+    flex: 1 1 30%;
+    /*grow | shrink | basis */
+    height: 200px;
+
+ }
+
+ .title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10em;
+ }
+
+ .companyTrips {
+    margin-top: 5em;
+ }

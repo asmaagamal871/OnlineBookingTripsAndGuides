@@ -1,0 +1,139 @@
+.contDiv {
+    width: 50vw;
+    height: 50vh;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.titleAnddiscribtion {
+    width: 70%;
+    height: fit-content;
+    /* background-color: crimson; */
+}
+
+.description {
+    font-size: 1.5vw;
+
+}
+
+.titleOfTrip {
+    font-size: 2.3vw;
+
+}
+
+.details {
+    width: 28%;
+    height: fit-content;
+    /* background-color: deeppink; */
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+    position: relative;
+
+    /* padding-left: 20%; */
+}
+
+.dateOfTrip {
+    font-size: 1.2vw;
+
+}
+
+.duration {
+    font-size: 1.2vw;
+}
+
+.rSeats {
+    font-size: 1.2vw;
+}
+
+.cost {
+    font-size: 2vw;
+}
+
+
+
+
+.dateAndDuration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+
+    font-size: 1.3vw;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 3%;
+    align-items: flex-start;
+    width: 25%;
+
+}
+
+.priceAndSeats {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 25%;
+    font-size: 1.3vw;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 3%;
+}
+
+.head2 {
+    font-size: 3vw;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.head3 {
+    font-size: 2vw;
+    padding: 0px;
+    margin: 0px;
+}
+
+.pss {
+    margin: 0%;
+    padding: 1%;
+    text-align: left;
+}
+
+.placeDis {
+    font-size: 1.6vw;
+    margin-bottom: 3%;
+}
+
+.button {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contOfHeaders {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    right: 0%;
+    top: 5%;
+}
+
+.companyName {
+    text-decoration: none;
+}
+
+.flexx {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}

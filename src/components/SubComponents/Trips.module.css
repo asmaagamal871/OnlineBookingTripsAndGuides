@@ -1,0 +1,12 @@
+.trips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.conterContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

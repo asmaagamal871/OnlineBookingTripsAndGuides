@@ -1,0 +1,31 @@
+.star-widget{
+    background-color: rgb(52, 55, 58);
+    max-width:250px;
+    border:1px solid lightgray;
+    border-radius:25px;
+
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.starWidget input{
+    display: none;
+}
+label{
+    color:#444;
+    padding:0.3em;
+}
+
+input:not(:checked) ~ label:hover ~ label
+,input:not(:checked) ~ label:hover{
+    color:#fd4;
+}
+input:checked ~ label{
+    color:#fd4;
+}
+input#s-5:checked ~ label{
+    color:#fe7;
+    text-shadow:0 0 10px #952;
+
+}

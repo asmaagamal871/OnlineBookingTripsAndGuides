@@ -1,0 +1,51 @@
+
+.row{
+    display:flex;
+    width:70%;
+    max-width:80%;
+    justify-content:space-between;
+    align-items: center;
+    margin:5em auto;
+    background-color: rgba(211, 211, 211, 0.397);
+    padding:2em;
+    border-radius: 25px;
+
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color:#3c9de2;
+}
+
+.col{
+    width:60%;
+   background-color: white;
+    border-radius: 25px;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    padding:0 2em;
+}
+.list{
+    text-align: left;
+    list-style:none;
+  line-height:30px;
+}
+
+.icon{
+    border:none;
+  
+    width:5%;
+    margin-right:0.3em;
+}
+.iconRow
+{
+    width:60%;
+  
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   box-sizing: border-box;
+ 
+}

@@ -1,0 +1,162 @@
+.section,
+.section2 {
+
+    width: 70%;
+    background-color: rgb(60, 157, 226, 0.3);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    height: 400px;
+
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section2 {
+    background-color: rgba(184, 190, 195, 0.3);
+    align-items: flex-start;
+
+    margin-top: 5em;
+}
+
+
+
+.allInfo {
+
+    width: 80%;
+
+    margin: 0 auto;
+
+}
+
+.city {
+
+    margin-top: -2em;
+    font-size: small;
+    font-weight: 600;
+}
+
+.profImg {
+    width: 40%;
+    padding-left: 15px;
+
+}
+
+.profImg img {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 20px;
+    border-radius: 10px;
+
+}
+
+.info {
+
+    width: 60%;
+}
+
+.infoPoints {
+
+    list-style: none;
+
+    font-weight: bold;
+
+
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-left: 1.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+}
+
+.boldTitle {
+    font-weight: bold;
+}
+
+.rating {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+
+.col {
+
+    width: 40%;
+    background-color: white;
+    border-radius: 25px;
+    margin: 2em;
+}
+
+.col+.col {
+    width: 50%;
+}
+
+.skillBox {
+
+    width: 100%;
+    margin: 0.2em auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.flexRowItem {
+
+    max-width: 20%;
+
+    margin: 0.2em 0.8em;
+
+}
+
+.flexRowItem:hover {
+    transform: translateY(-20px);
+}
+
+.skillBox>.flexRowItem {
+    flex: 1 1 30%;
+    /*grow | shrink | basis */
+    height: 100px;
+
+}
+
+.lang {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.langList {
+    list-style: none;
+
+}
+
+.langList li {
+
+    width: 80px;
+}
+
+.langList>li {
+
+    flex: 1 1 30%;
+    /*grow | shrink | basis */
+    height: 30px;
+
+    text-transform: capitalize;
+}
+
+.s2Title {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 17px;
+}

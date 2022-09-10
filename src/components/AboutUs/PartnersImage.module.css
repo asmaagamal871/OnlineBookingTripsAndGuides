@@ -1,0 +1,17 @@
+.pImgCard {
+
+    border-radius: 50%;
+    width: 20%;
+    margin: 1em 1em;
+}
+
+.pImgCard:hover {
+    transform: translateY(-0.4cm);
+    transition: 0.2s;
+}
+
+.pImg {
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    max-width: 100%;
+}
